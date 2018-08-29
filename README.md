@@ -84,7 +84,7 @@ If an option is not specified in the command line, a default setting is used, wh
 
 # Support
 
-Some classes in the package distance.elastic may contain borrowed code from the timeseriesweka project at the www.timeseriesclassification.com (Bagnall, 2017),  we have modified the original classes to fix bugs and improve the implementation efficiency. "The great time series classification bakeoff " (Bagnall, 2017) paper has been cited in our Proximity Forest (B.Lucas, 2018) paper as well.
+Some classes in the package distance.elastic may contain borrowed code from the timeseriesweka project at the www.timeseriesclassification.com (Bagnall, 2017).  We have modified the original classes to fix bugs and improve the implementation efficiency. Their paper "The great time series classification bakeoff " (Bagnall, 2017) has been cited in our Proximity Forest (B.Lucas, 2018) paper as well.
 
 YourKit is supporting Proximity Forest open source project with its full-featured Java Profiler.
 YourKit is the creator of innovative and intelligent tools for profiling Java and .NET applications. http://www.yourkit.com 
