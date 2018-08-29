@@ -38,7 +38,7 @@ public class PFApplication {
 	public static void main(String[] args) {
 		try {	
 			
-			args = test_args;
+//			args = test_args;
 			
 			//some default settings are specified in the AppContext class but here we
 			//override the default settings using the provided command line arguments		
