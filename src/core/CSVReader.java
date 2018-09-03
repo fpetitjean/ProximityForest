@@ -93,14 +93,14 @@ public class CSVReader {
                 tmp = new double[data_length];	
      
                 if (targetColumnIsFirst) {
-	                for (int j = 1; j < data_length; j++){
+	                for (int j = 1; j <= data_length; j++){
 	                	tmp[j-1] = Double.parseDouble(line_array[j]);
 	                }   
 	                label = Double.parseDouble(line_array[0]);
                 }else {
                 	//assume target is the last column
                 	int j;
-	                for (j = 0; j < data_length; j++){
+	                for (j = 0; j <= data_length; j++){
 	                	tmp[j-1] = Double.parseDouble(line_array[j]);
 	                }  
 	                label = Double.parseDouble(line_array[j]);
