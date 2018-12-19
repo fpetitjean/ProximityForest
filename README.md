@@ -32,7 +32,27 @@ COTE.
 
 When using this repository, please cite:
 ```
-TODO
+@article{DBLP:journals/corr/abs-1808-10594,
+  author    = {Benjamin Lucas and
+               Ahmed Shifaz and
+               Charlotte Pelletier and
+               Lachlan O'Neill and
+               Nayyar A. Zaidi and
+               Bart Goethals and
+               Fran{\c{c}}ois Petitjean and
+               Geoffrey I. Webb},
+  title     = {Proximity Forest: An effective and scalable distance-based classifier
+               for time series},
+  journal   = {CoRR},
+  volume    = {abs/1808.10594},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1808.10594},
+  archivePrefix = {arXiv},
+  eprint    = {1808.10594},
+  timestamp = {Mon, 03 Sep 2018 13:36:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1808-10594},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## Usage and prerequisites
