@@ -1,7 +1,7 @@
 
 
 # ProximityForest
-An effective and scalable distance-based classifier for time series classification. This repostitory contains the source code for the time series classification algorithm Proximity Forest, published in the paper [TODO](link arvix)
+An effective and scalable distance-based classifier for time series classification. This repostitory contains the source code for the time series classification algorithm Proximity Forest, published in the paper [https://arxiv.org/abs/1808.10594]
 
 ## Abstract 
 Research into the classification of time series has made enormous
@@ -30,7 +30,7 @@ greater than those in the UCR repository, while learning its models at least
 100,000 times faster than current state of the art models Elastic Ensemble and
 COTE.
 
-When using this repository, please cite:
+When using this repository, please cite (this will change this later, to a jounral reference):
 ```
 @article{DBLP:journals/corr/abs-1808-10594,
   author    = {Benjamin Lucas and
