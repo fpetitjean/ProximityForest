@@ -18,12 +18,12 @@ public class PFApplication {
 	public static final String UCR_dataset = "ItalyPowerDemand";
 	//TODO test support file paths with a space?
 	public static final String[] test_args = new String[]{
-			"-train=E:/data/ucr/cleaned/" + UCR_dataset + "/" + UCR_dataset + "_TRAIN.txt", 
-			"-test=E:/data/ucr/cleaned/" + UCR_dataset + "/" + UCR_dataset + "_TEST.txt",
+			"-train=E:/data/ucr/" + UCR_dataset + "/" + UCR_dataset + "_TRAIN.txt", 
+			"-test=E:/data/ucr/" + UCR_dataset + "/" + UCR_dataset + "_TEST.txt",
 //			"-train=E:/data/satellite/sample100000_TRAIN.txt", 
 //			"-test=E:/data/satellite/sample100000_TEST.txt",
 			"-out=output",
-			"-repeats=3",
+			"-repeats=1",
 			"-trees=100",
 			"-r=5",
 			"-on_tree=true",
@@ -38,7 +38,7 @@ public class PFApplication {
 	public static void main(String[] args) {
 		try {	
 			
-//			args = test_args;
+			//args = test_args;
 			
 			//some default settings are specified in the AppContext class but here we
 			//override the default settings using the provided command line arguments		
