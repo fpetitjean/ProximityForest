@@ -30,29 +30,16 @@ greater than those in the UCR repository, while learning its models at least
 100,000 times faster than current state of the art models Elastic Ensemble and
 COTE.
 
-When using this repository, please cite (this will change this later, to a jounral reference):
+When using this repository, please cite:
 ```
-@article{DBLP:journals/corr/abs-1808-10594,
-  author    = {Benjamin Lucas and
-               Ahmed Shifaz and
-               Charlotte Pelletier and
-               Lachlan O'Neill and
-               Nayyar A. Zaidi and
-               Bart Goethals and
-               Fran{\c{c}}ois Petitjean and
-               Geoffrey I. Webb},
-  title     = {Proximity Forest: An effective and scalable distance-based classifier
-               for time series},
-  journal   = {CoRR},
-  volume    = {abs/1808.10594},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1808.10594},
-  archivePrefix = {arXiv},
-  eprint    = {1808.10594},
-  timestamp = {Mon, 03 Sep 2018 13:36:40 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1808-10594},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@Article{Lucas2019,
+  author="Lucas, Benjamin and Shifaz, Ahmed and Pelletier, Charlotte and O'Neill, Lachlan and Zaidi, Nayyar and Goethals, Bart and Petitjean, Fran{\c{c}}ois and Webb, Geoffrey I.",
+  title="Proximity Forest: an effective and scalable distance-based classifier for time series",
+  journal="Data Mining and Knowledge Discovery",
+  year="2019",
+  doi="10.1007/s10618-019-00617-3"
 }
+
 ```
 
 ## Usage and prerequisites
